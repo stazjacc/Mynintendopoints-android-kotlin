@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:maxHeight="250dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/user_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="80"
+                    android:background="#255fdb"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:text="@string/user"/>
+            <TextView
+                    android:id="@+id/account_item_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#999999"
+                    android:textColor="#333"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_weight="20"
+                    tools:text="Usuário"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/globe_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="80"
+                    android:background="#e60012"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:text="@string/globe"/>
+            <TextView
+                    android:id="@+id/account_item_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ccc"
+                    android:textColor="#333"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_weight="20"
+                    tools:text="País"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/golden_coin_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="80"
+                    android:gravity="center"
+                    android:background="#F9A602"
+                    android:textColor="#fff"
+                    android:text="@string/golden_coin"/>
+            <TextView
+                    android:id="@+id/account_item_golden_points"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#eaeaea"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:textColor="#333"
+                    android:textSize="20sp"
+                    tools:text="Pontos de Ouro" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/silver_coin_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="80"
+                    android:gravity="center"
+                    android:background="#c5c5c5"
+                    android:textColor="#fff"
+                    android:text="@string/silver_coin"/>
+            <TextView
+                    android:id="@+id/account_item_platinum_points"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#f4f4f4"
+                    android:layout_weight="20"
+                    android:gravity="center"
+                    android:textColor="#333"
+                    android:textSize="20sp"
+                    tools:text="Pontos de Platina" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.design.widget.TextInputEditText
+            android:id="@+id/form_account_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/username" />
+
+    <android.support.design.widget.TextInputEditText
+            android:id="@+id/form_account_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/country" />
+
+    <android.support.design.widget.TextInputEditText
+            android:id="@+id/form_account_gpoints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="number|phone"
+            android:digits="1234567890"
+            android:hint="@string/gpoint" />
+
+    <android.support.design.widget.TextInputEditText
+            android:id="@+id/form_account_ppoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="number|phone"
+            android:digits="1234567890"
+            android:hint="@string/ppoint" />
+
+
+</LinearLayout>

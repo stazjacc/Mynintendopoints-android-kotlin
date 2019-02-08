@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyNintendoPoints</string>
+    <string name="globe">&#xf0ac;</string>
+    <string name="golden_coin">&#xf51e;</string>
+    <string name="silver_coin">&#xf51e;</string>
+    <string name="user">&#xf406;</string>
+    <string name="username">Usuário</string>
+    <string name="country">País</string>
+    <string name="gpoint">Pontos de Ouro</string>
+    <string name="ppoint">Pontos de Platina</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="action_sign_up_short">Registrar</string>
+    <string name="error_invalid_email">Este enail é inválido</string>
+    <string name="error_invalid_password">Password é muito curto</string>
+    <string name="error_incorrect_password">Password incorreto</string>
+    <string name="error_field_required">Este campo é obrigatório</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+</resources>
